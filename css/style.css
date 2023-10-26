@@ -1,26 +1,32 @@
 .inline-block {
     display:inline-block;
     vertical-align: top;
+    font-family: 'Playfair Display', serif;
 }
 .logo {
     display: inline-block;
     width:20%;
     padding: 1%;
     text-align: center;
+    background-color: black;
 }
 .logopic {
     display: inline-block;
-    width: 40%;
+    width: 15%;
 }
 
 nav {
     width: 73%;
     padding: 1%;
+    height: fit-content;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
 }
 
 ul {
     width: 50%;
     margin-left: auto;
+    color: white;
 }
 .heroImg {
     height: 600px;
@@ -32,6 +38,7 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
+    font-family: 'DM Sans', sans-serif;
 }
 footer {
     background-color: #373738;
@@ -43,4 +50,5 @@ footer>ul {
     padding: 10px;
     color: white;
     width: auto;
+    font-family: 'Playfair Display', serif;
 }
